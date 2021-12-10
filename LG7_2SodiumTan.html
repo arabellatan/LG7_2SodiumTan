@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title>LG7_2SodiumTan</title>
+
+        <meta charset="utf-8">
+        <meta name="author" content="Arabella Tan">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="revised" content="12-10-2021">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <style>
+        
+        #link1:link {
+          text-decoration: none;
+          background-color: steelblue;
+          color: white;
+        }
+
+        #link2:link {
+          text-decoration: none;
+          background-color: teal;
+          color: white;
+        }
+
+
+        #link1:active , #link2:active {
+          text-decoration: none;
+          background-color: salmon;
+          color: black;
+        }
+  
+
+        #div1:target {
+          background-color: steelblue;
+          color: lemonchiffon;
+        }
+        #div2:target {
+          border: 10px dotted green;
+          background-color: teal;
+          color: white;
+        }      
+
+    </style>
+
+    <body>
+
+        <a id="link1" href="#div1">First Link</a>
+        <p><a id="link2" href="#div2">Second Link</a></p>
+        <br>
+        <div id="div1"><p>Div 1 here</p></div>
+        <br>
+        <div id="div2"><p>Div 2 here</p></div>
+
+    </body>
+</html>
